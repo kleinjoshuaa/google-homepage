@@ -27,7 +27,8 @@ outline-width: 0px;
 overflow: hidden;
 overflow-x: hidden;
 overflow-y: hidden;
-text-alignrighttext-decoration: none;
+text-align:right;
+text-decoration: none;
 text-decoration-color: #404040;
 text-decoration-line: none;
 text-decoration-style: solid;
@@ -45,9 +46,6 @@ white-space: nowrap;
     text-decoration-style: solid;
 }
 
-.sign-in a:hover {
-    text-decoration: none;
-}
 
 
 
@@ -280,7 +278,7 @@ z-index: 6;
 
 
 .sign-in {
-color: #222;
+background-color: #4285f4;
 font-family: arial,sans-serif;
 font-size: 16.9px;
 position: relative;
@@ -344,6 +342,11 @@ white-space: nowrap;
 -moz-border-top-colors: none;
 z-index:15;
 }
+
+.sign-in a:hover {
+    text-decoration: none;
+}
+
 
 .options {
 	width: 34px;
