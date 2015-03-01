@@ -17,7 +17,7 @@ flex-grow: 0;
 flex-shrink: 1;
 font-family: arial,sans-serif;
 font-size: 16.9px;
-line-height: 24px;
+line-height: 36px;
 margin-left: 0px;
 margin-right: 0px;
 min-width: 60px;
@@ -283,9 +283,9 @@ z-index: 6;
 color: #222;
 font-family: arial,sans-serif;
 font-size: 16.9px;
-line-height: 15.3833px;
 position: relative;
-text-alignleftwhite-space: nowrap;
+text-align:left;
+white-space: nowrap;
 }
 
 .sign-in a {
@@ -328,10 +328,10 @@ line-height: 28px;
 outline-color: #FFF;
 outline-style: none;
 outline-width: 0px;
-padding-bottom: 0px;
+padding-bottom: 5px;
 padding-left: 12px;
 padding-right: 12px;
-padding-top: 0px;
+padding-top: 5px;
 text-align:left;
 text-decoration: none;
 text-decoration-color: #FFF;
@@ -342,10 +342,36 @@ white-space: nowrap;
 -moz-border-left-colors: none;
 -moz-border-right-colors: none;
 -moz-border-top-colors: none;
-
+z-index:15;
 }
 
 .options {
-	width: 30px;
-	height: 30px;
+	width: 34px;
+	height: 36px;
+	padding-top:5px;
+	padding-right:5px;
 }
+
+.top-links{
+	align-items: center;
+color: #222;
+display: flex;
+flex-basis: auto;
+flex-grow: 1;
+flex-shrink: 1;
+float:right;
+font-family: arial,sans-serif;
+font-size: 16.9px;
+justify-content: flex-end;
+margin-left: 0px;
+margin-right: 0px;
+min-width: 330px;
+order: 1;
+padding-left: 30px;
+padding-right: 30px;
+position: relative;
+text-align:right;
+white-space: nowrap;
+z-index: 987;
+}
+
